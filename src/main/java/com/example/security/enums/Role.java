@@ -1,4 +1,4 @@
-package com.example.security.user;
+package com.example.security.enums;
 
 public enum Role {
     USER,

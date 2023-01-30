@@ -1,5 +1,6 @@
 package com.example.security.user;
 
+import com.example.security.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.Hibernate;
