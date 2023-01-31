@@ -1,4 +1,4 @@
-package com.example.security.user;
+package com.example.security.model;
 
 import com.example.security.enums.Role;
 import jakarta.persistence.*;
