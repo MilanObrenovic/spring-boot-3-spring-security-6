@@ -1,5 +1,6 @@
 package com.example.security.controller;
 
+import com.example.security.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import com.example.security.dto.request.AuthenticationRequest;
 import com.example.security.dto.request.RegisterRequest;
@@ -15,18 +16,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class AuthenticationController {
 
+    private AuthenticationService authService;
+
     @PostMapping("/register")
     public ResponseEntity<AuthenticationResponse> register(
         @RequestBody RegisterRequest request
     ) {
-        // TODO: implement
+        return ResponseEntity.ok(authService.register(request));
     }
 
     @PostMapping("/authenticate")
     public ResponseEntity<AuthenticationResponse> authenticate(
         @RequestBody AuthenticationRequest request
     ) {
-        // TODO: implement
+        return ResponseEntity.ok(authService.authenticate(request));
     }
 
 }
