@@ -1,4 +1,4 @@
-package com.example.security.config;
+package com.example.security.filter;
 
 import com.example.security.service.JwtService;
 import com.example.security.service.UserDetailsService;
