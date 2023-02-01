@@ -1,13 +1,13 @@
 package com.example.security.serviceImpl;
 
+import lombok.AllArgsConstructor;
 import com.example.security.repository.UserRepository;
 import com.example.security.service.UserDetailsService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 @Service
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class UserDetailsServiceImpl implements UserDetailsService {
 
     private final UserRepository userRepository;

@@ -1,7 +1,7 @@
 package com.example.security.controller;
 
 import com.example.security.service.AuthenticationService;
-import lombok.RequiredArgsConstructor;
+import lombok.AllArgsConstructor;
 import com.example.security.dto.request.AuthenticationRequest;
 import com.example.security.dto.request.RegisterRequest;
 import com.example.security.dto.response.AuthenticationResponse;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/v1/auth")
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class AuthenticationController {
 
     private AuthenticationService authService;
