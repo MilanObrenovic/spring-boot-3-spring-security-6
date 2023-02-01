@@ -1,6 +1,9 @@
 package com.example.security.controller;
 
 import lombok.RequiredArgsConstructor;
+import com.example.security.dto.request.AuthenticationRequest;
+import com.example.security.dto.request.RegisterRequest;
+import com.example.security.dto.response.AuthenticationResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
