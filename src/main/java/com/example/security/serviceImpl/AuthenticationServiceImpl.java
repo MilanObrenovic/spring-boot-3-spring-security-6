@@ -39,7 +39,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
 
         return AuthenticationResponse
                 .builder()
-                .token(jwtToken)
+                .accessToken(jwtToken)
                 .build();
     }
 
@@ -60,7 +60,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
 
         return AuthenticationResponse
                 .builder()
-                .token(jwtToken)
+                .accessToken(jwtToken)
                 .build();
     }
 
