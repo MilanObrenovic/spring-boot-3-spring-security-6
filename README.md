@@ -1,5 +1,7 @@
 # Getting Started
 
+![Spring Boot JWT.png](misc/spring-boot-jwt.png)
+
 ### Reference Documentation
 
 For further reference, please consider the following sections:
